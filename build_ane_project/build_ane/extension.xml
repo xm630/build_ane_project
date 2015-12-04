@@ -1,0 +1,23 @@
+<extension xmlns="http://ns.adobe.com/air/extension/3.5">
+	<id>com.xuemin.myane</id>
+	<versionNumber>1</versionNumber>
+	<platforms>
+		<platform name="default">
+			<applicationDeployment>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-ARM">
+      		<applicationDeployment>
+        		<nativeLibrary>MyNativeLib.jar</nativeLibrary>
+        		<initializer>com.xuemin.mynativelib.NativeExtension</initializer>
+      		</applicationDeployment>
+    	</platform>
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libMyNativeLib.a</nativeLibrary>
+				<initializer>ExtensionInitializer</initializer>
+				<finalizer>ExtensionFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+	</platforms>
+</extension>

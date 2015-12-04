@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="com/xuemin/myswclib/EntryPoint" mod="1449112320456" signatureChecksum="1838971714" >
+        <def id="com.xuemin.myswclib:EntryPoint" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flash.events:StatusEvent" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="flash.events:StatusEvent" type="s" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="_69f330cd40d6b5364ba5c189ffc6537e4cd6ccafc26607f176a5635d1e2b2287_flash_display_Sprite" mod="1449112320722" signatureChecksum="2747300509" >
+        <def id="_69f330cd40d6b5364ba5c189ffc6537e4cd6ccafc26607f176a5635d1e2b2287_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="1665af17a709076666d36e9a2533ca6720de5597ddf1df7cca2b539dae805b32"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>

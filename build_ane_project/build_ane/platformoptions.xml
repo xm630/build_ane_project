@@ -1,0 +1,13 @@
+<platform xmlns="http://ns.adobe.com/air/extension/3.5"> 
+    <description>MyNativeLib</description> 
+    <copyright>xuemin</copyright> 
+    <linkerOptions> 
+        <option>-framework Foundation</option>
+        <option>-framework UIKit</option>
+        <option>-framework SystemConfiguration</option>
+        <option>-lsqlite</option>
+    </linkerOptions> 
+    <packagedDependencies> 
+        <packagedDependency>AlipaySDK.framework</packagedDependency> 
+    </packagedDependencies>
+</platform>
